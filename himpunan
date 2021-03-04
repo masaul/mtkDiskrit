@@ -115,7 +115,32 @@ Ada 5 operasi pada himpunan
         Rumus = | A U B U C | =  |A| + |B| + |C| - |A n B| - |A n C| - |B n C|  +  | A n B n C |.  mencari | A n B | menggunakan KPK dari |A|&|B|
 
     
+ * Contoh Soal & Latihan
+    1. Dari survei terhadap 270 orang pengguna sistem operasi dalam komputer
+       64 suka dengan microsoft, 
+       94 suka dengan linux, 58 suka dengan freeBSD, 
+       26 suka dengan microsoft dan linux, 28 suka dengan microsoft dan freeBSD, 
+       22 suka dengan linux dan freeBSD, 14 suka ketiga jenis sistem operasi tersebut. 
+       Tentukan: a. Banyaknya pengguna komputer yang menggunakan paling sedikit satu sitem operasi
+                 b. Gambarkan diagram Venn untuk masalah ini
+                 c. Berapa orang yang menggunakan sistem operasi microsoft atau linux tetapi tidak free BSD?
+                 d. Berapa orang yang tidak suka dengan semua jenis sistem operasi yang disebutkan di atas ?
+     
+    2. Berapa banyaknya bilangan bulat antara 1 dan 500 yang :
+        a.) Habis dibagi 5 dan 7
+        b.) Habis dibagi 5 atau 7
+        c.) Tidak Habis dibagi 5 atau 7
     
+    3. Tentukan Banyaknya bilangan asli  dari  1 hingga 780  yang: 
+        a.) Tidak Habis  dibagi  2 atau 3 atau 7.   
+        b.) Berapa banyak yang habis dibagi 2, tapi tidak habis dibagi 3 dan 7
+        c.) Berapa banyak yang habis dibagi 2 atau 7 , tapi tidak habis dibagi 3 
+        d.) Berapa banyak yang habis dibagi 2 dan 3 , tapi tidak habis dibagi 7 
+
+
+
+
+
     
     
     
