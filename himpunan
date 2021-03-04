@@ -1,36 +1,123 @@
-* Simbol-Simbol yang digunakan :
+* Cara Penyajian Himpunan
+    1. Enumerasi
+    2. Simbol- SImbol Baku **
+    3. Notasi Pembentuk Himpunan
+    4. Diagram Venn
 
-    P =  himpunan bilangan bulat positif  
-    N =  himpunan bilangan Asli
-    Z =  himpunan bilangan bulat
-    Q =  himpunan bilangan rasional
-    R =  himpunan bilangan riil
-    C =  himpunan bilangan kompleks
-    E =  digunakan untuk keanggotaan suatu elemen, dan untuk menyatakan bukan anggota digunakan E. kayak huruf c tengahnya dikasih garis.
+    ** Simbol-Simbol yang digunakan: 
+        P =  himpunan bilangan bulat positif  
+        N =  himpunan bilangan Asli
+        Z =  himpunan bilangan bulat
+        Q =  himpunan bilangan rasional
+        R =  himpunan bilangan riil
+        C =  himpunan bilangan kompleks
+        E =  digunakan untuk keanggotaan suatu elemen, dan untuk menyatakan bukan anggota digunakan E. kayak huruf c tengahnya dikasih garis.
+
+* istilah Dalam Himpunan
+    1. Himpunan Semesta
+    2. Himpunan Kosong
+    3. Himpunan Ekivalen 
+    4. Himpunan Bagian
+    5. Diagram Venn
+    6. Himpunan Kuasa
+    
+        + Himpunan Ekivalen
+          n(A) = n(B)  atau  |A| = |B| adalah Dua himpunan yang tidak kosong A dan B dikatakan ekivalen jika banyaknya anggota A sama dengan banyaknya anggota B
+
+
+        + Himpunan Bagian
+          C = merupakan simbol himpunan bagian.
+          Himpunan B dikatakan himpunan bagian dari himpunan A  jika  setiap xEB maka  x E A , dinotasikan dengan  B C A .
+          Ingat !!! E merupakan simbol dari keanggotaan suatu element.
+
+
+        + Himpunan Kuasa
+          P(A) atau 2A adalah Himpunan Kuasa dari himpunan A adalah suatu himpunan yang anggotanya adalah semua himpunan bagian dari A, termasuk himpunan kosong dan himpunan A sendiri. 
+
+
+Ada 5 operasi pada himpunan
+    1. Operasi Union            = {u}
+    2. Operasi Irisan           = {n}
+    3. Operasi Beda Setangkup   = {+o}
+    4. Operasi Selisih          = {-}
+    5. Operasi Komplemen        = {^c}
+
+
+        + Operasi Union
+          U = lambang Union
+          definisi = { x | x E A  atau  x E B }
+          Contoh :
+            A = { 2, 3, 5, 7, 9} 
+            B = { 0, 1, 2, 4, 5, 6, } 
+            C = { Anto, 14, L}
+
+            A U B = { 0, 1, 2, 3, 4, 5, 6, 7, 9}
+            A U C = {2, 3, 5, 7, 9, Anto, 14, L}
+
+
+        + Operasi Irisan
+          n = lambang irisan
+          definisi = { x | x E A  dan  x E B }
+          Himpunan irisan adalah himpunan yang sama dalam masing2 anggota. semisal tepak A ada pensil, pena, penghapus dan ditepak B ada sebuah pena, pensilWarna dan sepidol maka, irisannya adalah pena.
+          Contoh :
+            A = { 2, 3, 5, 7, 9} 
+            B = { 0, 1, 2, 4, 5, 6 }
+            C = { Anto, 4, L}
+
+            A n B = { 2, 5 }
+            B n C = { 4 }
+
+        + Operasi Selisih
+          - = lambang Selisih atau A - B adalah bilangan yang tidak ada di anggota lain.
+          definisi = { x | x E A  dan  x !E B }
+          Contoh :
+            A = {2,3,4,6,7,9}
+            B = {1,2,3,5,6,8,9,10}
+            C = {3,5,9}
+
+            A - B = {4,7}		
+            B – C = {1,2,6,7,10}
+            B – A = {1,5,8,10}	
+
+
+        + Operasi beda setangkup
+          A +o B = lambang beda setangkup. tanda plus ada didalam lingkaran.
+          definisi = { x |(x E A atau  x E B) & x !E(A n B) }
+          Rumus : A +o B = (A U B) – (A n B)  atau  A +o B = (A - B) U (B - A)
+          Contoh : 
+            A = {1,2,3,5,6,8,9,10}
+            B = {2,7,8,11}
+            C = {1,3,5,7,9,11}          
+
+            A +o B = {1,3,5,6, 7, 9,10,11} 
+            B +o C = {1,2,3,5,8,9}
+
+
+        + Operasi Komplemen
+          A^c = lambang dari komplemen
+          definisi = { x | x !E A dan  x E luar dari anggota himpunan.}
+          Contoh :
+            A = { 2, 3, 5, 6, 8)  
+            B = {1, 2, 4, 6, 7, 9, 13}
+            S = { x | x bilangan asli  <= 14} 
+
+            A^c = {1,4,7,9,10,11,12,13,14}  
+            B^c = {3,5,8,11,12,14}
 
 
 
-* Himpunan Ekivalen
-  n(A) = n(B)  atau  |A| = |B| adalah Dua himpunan yang tidak kosong A dan B dikatakan ekivalen jika banyaknya anggota A sama dengan banyaknya anggota B
-  
-* Himpunan Bagian
-  C = merupakan simbol himpunan bagian.
-  Himpunan B dikatakan himpunan bagian dari himpunan A  jika  setiap xEB maka  x E A , dinotasikan dengan  B C A .
-  Ingat !!! E merupakan simbol dari keanggotaan suatu element.
+* Prinsip Inklusi – Eksklusi (1)
+    + Dua Himpunan
+        Jika  A dan B adalah himpunan-himpunan berhingga, maka  A U B  dan  A n B  juga berhingga.
+        Rumus = | A U B | = |A| + |B| - | A n B |. mencari | A n B | menggunakan KPK dari |A|&|B|
+    + Tiga Himpunan
+        Jika A, B, dan C adalah himpunan-himpunan berhingga, maka
+        Rumus = | A U B U C | =  |A| + |B| + |C| - |A n B| - |A n C| - |B n C|  +  | A n B n C |.  mencari | A n B | menggunakan KPK dari |A|&|B|
 
-* Himpunan Kuasa
-  P(A) atau 2A adalah Himpunan Kuasa dari himpunan A adalah suatu himpunan yang anggotanya adalah semua himpunan bagian dari A, termasuk himpunan kosong dan himpunan A sendiri. 
-
-* Operasi Union
-  U = lambang Union
-  Contoh :
-    A = { 2, 3, 5, 7, 9} 
-    B = { 0, 1, 2, 4, 5, 6, } 
-    C = { Anto, 14, L}
-
-    A U B = { 0, 1, 2, 3, 4, 5, 6, 7, 9}
-    A U C = {2, 3, 5, 7, 9, Anto, 14, L}
-* Operasi Irisan
-  n = lambang irisan
-  
-
+    
+    
+    
+    
+    
+    
+    
