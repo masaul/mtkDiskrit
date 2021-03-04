@@ -1,0 +1,36 @@
+* Simbol-Simbol yang digunakan :
+
+    P =  himpunan bilangan bulat positif  
+    N =  himpunan bilangan Asli
+    Z =  himpunan bilangan bulat
+    Q =  himpunan bilangan rasional
+    R =  himpunan bilangan riil
+    C =  himpunan bilangan kompleks
+    E =  digunakan untuk keanggotaan suatu elemen, dan untuk menyatakan bukan anggota digunakan E. kayak huruf c tengahnya dikasih garis.
+
+
+
+* Himpunan Ekivalen
+  n(A) = n(B)  atau  |A| = |B| adalah Dua himpunan yang tidak kosong A dan B dikatakan ekivalen jika banyaknya anggota A sama dengan banyaknya anggota B
+  
+* Himpunan Bagian
+  C = merupakan simbol himpunan bagian.
+  Himpunan B dikatakan himpunan bagian dari himpunan A  jika  setiap xEB maka  x E A , dinotasikan dengan  B C A .
+  Ingat !!! E merupakan simbol dari keanggotaan suatu element.
+
+* Himpunan Kuasa
+  P(A) atau 2A adalah Himpunan Kuasa dari himpunan A adalah suatu himpunan yang anggotanya adalah semua himpunan bagian dari A, termasuk himpunan kosong dan himpunan A sendiri. 
+
+* Operasi Union
+  U = lambang Union
+  Contoh :
+    A = { 2, 3, 5, 7, 9} 
+    B = { 0, 1, 2, 4, 5, 6, } 
+    C = { Anto, 14, L}
+
+    A U B = { 0, 1, 2, 3, 4, 5, 6, 7, 9}
+    A U C = {2, 3, 5, 7, 9, Anto, 14, L}
+* Operasi Irisan
+  n = lambang irisan
+  
+
